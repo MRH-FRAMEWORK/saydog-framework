@@ -159,7 +159,7 @@ install() {
                         echo -e $p"[*]"$w" metasploit is doesn't exists"
                         echo -e $p"[*]"$w" install it with cmd:"
                         echo -e $g"    pkg install unstable-repo"
-                        echo -e $g"    pkg install metasploit"
+                        echo -e $g"    pkg install curl && curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && chmod 755 msfinstall && ./msfinstall"
                         fi
         echo
         echo -e $p"[*]"$w" package has been installed"
